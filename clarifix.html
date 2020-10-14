@@ -1,0 +1,554 @@
+<div class="header clearfix">
+    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-667" class="top-menu-login menu-item menu-item-type-custom menu-item-object-custom menu-item-667 nav-item" style="display: flex;justify-content: flex-end;background-color: #201e50;position: fixed;width: 100%;top: 0;/* height: 111px !important; *//* right: 0; *//* left: 0; */z-index: 1030;"><a title="Login" href="https://login.lightico.com/" class="nav-link" style="color: white;font-weight: 500;padding: 3px 20px;">Login</a></li><div class="site" id="page" style="position: fixed;width: 100%;margin-top: 36px;background-color: white;top: 0;right: 0;left: 0;z-index: 1030;">
+        <header class="opaque"><nav class="navbar navbar-expand-lg" style="/* margin-top: 0; */padding: 6px;">
+<style type="text/css">
+.card-body:hover {
+/*             background: blue; */
+    box-shadow:  3px 3px gray;
+}
+.card-body a {
+    text-decoration: none; 
+    color: black;
+}
+    .card-body img {
+        height: 60px;
+       
+    }
+    .card-title {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-link {
+     color: #28243a;
+    font-size: 20px;
+    margin-top: 3px;
+    font-family: maison-neue-light;   
+    }
+    .footer-menu-item ul li {
+            margin: 1em 0;
+    }
+.footer-menu-item li a {
+    color: gray;
+    font-size: 15px;
+    }
+    .footer-menu-item > a {
+     color: black;
+            padding: 0px 0px 0px 40px;
+        font-size: 20x;
+        font-weight: 600;
+    }
+    .footer-menu-item {
+        margin-left: 2em
+    }
+    li {
+        list-style-type: none;
+    }
+    .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin: 15px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  
+  color: black;
+}
+    .flip-card-front img {
+        height: 135px;
+    }
+    .flip-card-front a:hover {
+        text-decoration: none;
+    }
+
+/* Style the back side */
+.flip-card-back {
+    color: white;
+    display: flex;
+    transform: rotateY(180deg);
+    flex-direction: column;
+    justify-content: center;
+}
+.flip-card-back a:hover{
+    text-decoration: none;
+}
+
+/* HAMBURGER MENU */
+.topnav {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  margin-left: -10px;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  border-bottom: 1px solid;
+
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  .topnav {
+    display: none;
+  }
+}
+  @media only screen and (max-width: 600px) {
+  .footer-nav-menu {
+      display: flex;
+      justify-content:center ;
+  }
+  .footer-nav-menu ul {
+      display: flex;
+      flex-direction: column ;
+  }
+}
+
+            </style>
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+              <a href="#home" class="active"><img class="logo" src="https://www.lightico.com/wp-content/uploads/2019/03/logo-color.svg" style="
+                height: 30px;
+            "></a>
+              <!-- Navigation links (hidden by default) -->
+              <div id="myLinks">
+                <a title="Product" href="https://www.lightico.com/product-new/" class="nav-link" id="menu-item-dropdown-664">Product</a>
+                <a title="Platform" href="https://www.lightico.com/platform/" class="nav-link" id="menu-item-dropdown-1412">Platform</a>
+                <a title="Industries" href="#" class="nav-link" id="menu-item-dropdown-713">Industries</a>
+                <a title="Resources" href="/resources" class="nav-link" id="menu-item-dropdown-1114">Resources</a>
+                <a title="Blog" href="https://www.lightico.com/blog/" class="nav-link">Blog</a>
+                <a title="Company" href="https://www.lightico.com/company/" class="nav-link" id="menu-item-dropdown-1468" style="">Company</a>
+              </div>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+<a class="navbar-brand" href="https://www.lightico.com"> <img class="white" src="https://www.lightico.com/wp-content/uploads/2019/03/logo-white.svg" alt="lightico logo"><img class="color" src="https://www.lightico.com/wp-content/uploads/2019/03/logo-color.svg" alt="lightico logo"> </a><div class="flex-1"></div> <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button><div class="collapse navbar-collapse" id="navbarCollapse" style="
+justify-content: center;
+">
+
+<div class="menu-main-menu-container">
+
+<ul id="menu-main-menu" class="menu navbar-nav mr-auto"><img id="mlogo" class="color" src="https://www.lightico.com/wp-content/uploads/2019/03/logo-color.svg" alt="lightico logo" style="
+    height: 54px;
+    width: 118px;
+    margin-right: 104px;
+"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-664" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-664 nav-item"><a title="Product" href="https://www.lightico.com/product-new/" class="nav-link" id="menu-item-dropdown-664">Product</a><ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-664" role="menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-765 nav-item"><a title="eSignatures" href="https://www.lightico.com/esignature" class="dropdown-item">eSignatures</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-3803" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3803 nav-item"><a title="eForms" href="https://www.lightico.com/eforms" class="dropdown-item">eForms</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-3984" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3984 nav-item"><a title="ID Verification" href="https://www.lightico.com/identity-verification/" class="dropdown-item">ID Verification</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-4135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4135 nav-item"><a title="Document Collection" href="https://www.lightico.com/document-collection/" class="dropdown-item">Document Collection</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-3533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3533 nav-item"><a title="Digital Consent &amp; Approvals" href="https://www.lightico.com/instant-consent-clickwrap/" class="dropdown-item">Digital Consent &amp; Approvals</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-4136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4136 nav-item"><a title="Secure Payments" href="https://www.lightico.com/secure-payments/" class="dropdown-item">Secure Payments</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-4089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4089 nav-item"><a title="Visual Cart" href="https://www.lightico.com/visual-cart/" class="dropdown-item">Visual Cart</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-4226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4226 nav-item"><a title="Shared Review" href="https://www.lightico.com/shared-review/" class="dropdown-item">Shared Review</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-4980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4980 nav-item"><a title="Media Sharing" href="https://www.lightico.com/media-sharing/" class="dropdown-item">Media Sharing</a></li></ul></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1412" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1390 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown active menu-item-1412 nav-item"><a title="Platform" href="https://www.lightico.com/platform/" class="nav-link" id="menu-item-dropdown-1412">Platform</a><ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-1412" role="menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1443" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1390 current_page_item active menu-item-1443 nav-item"><a title="Platform" href="https://www.lightico.com/platform/" class="dropdown-item">Platform</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1413" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1413 nav-item"><a title="Security &amp; Compliance" href="https://www.lightico.com/security-compliance/" class="dropdown-item">Security &amp; Compliance</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2809 nav-item"><a title="Lightico for Salesforce" href="https://www.lightico.com/lightico-for-salesforce/" class="dropdown-item">Lightico for Salesforce</a></li></ul></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-713 nav-item"><a title="Industries" href="#" class="nav-link" id="menu-item-dropdown-713">Industries</a><ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-713" role="menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-741" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-741 nav-item"><a title="Lending &amp; Banking" href="https://www.lightico.com/lending_banking/" class="dropdown-item">Lending &amp; Banking</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-739" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-739 nav-item"><a title="Telcos" href="https://www.lightico.com/telco/" class="dropdown-item">Telcos</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-740 nav-item"><a title="Insurance" href="https://www.lightico.com/insurance/" class="dropdown-item">Insurance</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-4336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4336 nav-item"><a title="Legal Teams" href="https://www.lightico.com/legal-teams/" class="dropdown-item">Legal Teams</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2440 nav-item"><a title="BPO" href="https://www.lightico.com/bpo/" class="dropdown-item">BPO</a></li></ul></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1114 nav-item"><a title="Resources" href="/resources" class="nav-link" id="menu-item-dropdown-1114">Resources</a><ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-1114" role="menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-846" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-846 nav-item"><a title="Guides" href="/resources/guides" class="dropdown-item">Guides</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-847" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-847 nav-item"><a title="Webinars" href="/resources/webinars" class="dropdown-item">Webinars</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-848" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-848 nav-item"><a title="Videos" href="/resources/videos" class="dropdown-item">Videos</a></li></ul></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661 nav-item"><a title="Blog" href="https://www.lightico.com/blog/" class="nav-link">Blog</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1468 nav-item"><a title="Company" href="https://www.lightico.com/company/" class="nav-link" id="menu-item-dropdown-1468" style="
+    /* color: #28243a; */
+    /* font-size: 17px; */
+    /* margin-top: 7px; */
+    /* font-family: maison-neue-light; */
+">Company</a><ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-1468" role="menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1772 nav-item"><a title="About" href="https://www.lightico.com/company/" class="dropdown-item">About</a></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-3554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3554 nav-item"><a title="Careers" href="https://www.lightico.com/careers/" class="dropdown-item">Careers</a></li></ul></li><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-668" class="top-menu-request-demo menu-item menu-item-type-post_type menu-item-object-page menu-item-668 nav-item"><a title="Request Demo" href="https://www.lightico.com/request-demo/" class="nav-link" style="
+margin-left: 144px;
+background: #4d3b9e;
+border: 2px solid #4d3b9e;
+border-radius: 3px;
+color: white;
+padding: 9px 15px;
+font-weight: 700;
+">Request Demo</a></li></ul></div></div></nav></header><div id="primary" class="content-area flexible-sections-container">
+        </div>
+
+
+    </div>
+<br>
+<br>
+<div class="jumbotron" style="background-color:201b51;height: 185px;">
+    <center style="
+    height: 119px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+"> <h1 style="color:white;">Lightico Self-Service Portal</h1></center> 
+    </div>
+
+<div class="row marketing">
+
+    <div class="row col-12 center" style="display: flex; align-items: center; justify-content: center;">
+        <div class="row justify-content-center">
+            <div class="flip-card">
+                <div class="flip-card-inner" style="width: 18rem;">
+                    <div class="flip-card-front" style="height:215px;/* background: aqua; */">
+                        <h5 class="card-title" style="
+/* text-align: center; */
+"> <a href="/new/Home/Embeded">  <img src="/new/Content/Self-Service-Demo-Desktop-Icons-1.png" height="30px" style="
+/* width: 100%; */
+"></a></h5><a href="/new/Home/Embeded" style="
+text-decoration: none;
+color: black;
+"><center>
+<h4 class="card-subtitle mb-2 text-muted">Document Templates</h4>
+
+</center>
+                    </a> 
+                    </div>
+                    <div class="flip-card-back">
+                        <a href="/new/Home/Embeded">
+                    <p class="card-text">
+                        Use Lightico’s pre-set templates to create your own documents for easy form-filling.
+                        </p>
+                    </a>
+                        </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner" style="width: 18rem;">
+                    <div class="flip-card-front" style="height:215px">
+                        <a href="/new/Home/Form">
+                            <h5 class="card-title"><img src="/new/Content/Self-Service-Demo-Desktop-Icons-2.png" height="30px"></h5>
+<center>
+                            <h4 class="card-subtitle mb-2 text-muted">eForms</h4>
+
+                            
+                        </center>
+                            </a>
+                        
+                    </div>
+                    <div class="flip-card-back">
+                        <a href="/new/Home/Form">
+                        <p class="card-text">
+                            Embed Lightico’s functionality into your existing website and forms.
+                        </p>
+                        </a>
+                        </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner" style="width: 18rem;">
+                    <div class="flip-card-front" style="height:215px">
+                        <a href="/new/Home/DocumentRequest">
+                            <h5 class="card-title" style="
+"><img src="/new/Content/Self-Service-Demo-Desktop-Icons-8.png" height="30px" style="
+    height: 135px;
+    /* width: 188px; */
+"></h5>
+<center>
+<h4 class="card-subtitle mb-2 text-muted">
+Document Collection
+</h4>
+
+
+</center>
+                         </a>   
+                    </div>
+                    <div class="flip-card-back">
+                        <a href="/new/Home/DocumentRequest">
+                        <p class="card-text">Customers upload images of documents, ID and stipulations using their phone camera.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row col-12 center" style="display: flex;
+align-items: center;
+justify-content: center;">
+                <div class="row justify-content-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner" style="width: 18rem;">
+                            <div class="flip-card-front" style="height:215px">
+                                <a href="/new/Home/Payment">
+                                    <h5 class="card-title"><img src="/new/Content/Self-Service-Demo-Desktop-Icons-3.png" height="30px"></h5>
+<center>
+<h4 class="card-subtitle mb-2 text-muted">
+Secure Payments
+
+</h4>
+
+
+</center>
+                                  </a>  
+                            </div>
+                            <div class="flip-card-back">
+                                <a href="/new/Home/Payment">
+                                <p class="card-text">
+                                    Collect payment instantly and securely via PCI-Compliant mobile payments.
+                                    </p>
+                                    </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner" style="width: 18rem;">
+                            <div class="flip-card-front" style="height:215px">
+                                <a href="/new/Home/Idv">
+                                    <h5 class="card-title"><img src="/new/Content/Self-Service-Demo-Desktop-Icons-7.png" height="30px"></h5>
+<center>
+<h4 class="card-subtitle mb-2 text-muted">
+Photo ID Verification
+
+
+</h4>
+
+
+
+</center>
+                                 </a>   
+                            </div>
+                            <div class="flip-card-back">
+                                <a href="/new/Home/Idv">
+                                <p class="card-text">
+                                    Verify customers’ photo ID instantly &amp; securely using their cell phone cameras.
+                                    </p>
+                                </a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner" style="width: 18rem;">
+                            <div class="flip-card-front" style="height:215px">
+                                <a href="/new/Home/Otp">
+                                    <h5 class="card-title"><img src="/new/Content/Self-Service-Demo-Desktop-Icons-4.png" height="30px"></h5>
+<center>
+                                    <h4 class="card-subtitle mb-2 text-muted">
+                                        OTP Authentication
+
+
+
+                                    </h4>
+
+                                
+                                </center>
+</a>
+                                
+                            </div>
+                            <div class="flip-card-back">
+                                <a href="/new/Home/Otp">
+                                <p class="card-text">
+                                    Add an additional layer of security to the Lightico session using a One Time Password.
+                                </p>
+                                </a>
+                                </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="row col-12 center" style="display: flex;
+align-items: center;
+justify-content: center;">
+                <div class="row justify-content-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner" style="width: 18rem;">
+                            <div class="flip-card-front" style="height:215px">
+                                <a href="/new/Home/Kba">
+                                    <h5 class="card-title"><img src="/new/Content/Self-Service-Demo-Desktop-Icons-6.png" height="30px"></h5>
+<center>
+                                    <h4 class="card-subtitle mb-2 text-muted">
+                                        KBA Authentication
+
+
+
+
+                                    </h4>
+
+                                </center>
+                                    </a>
+                                
+                            </div>
+                            <div class="flip-card-back">
+                                <a href="/new/Home/Kba">
+                                <p class="card-text">Use Knowledge-Based Authentication to reduce fraud risk.</p>
+</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner" style="width: 18rem;">
+                            <div class="flip-card-front" style="height:215px">
+                                <a href="/new/Home/Terms">
+                                    <h5 class="card-title"><img src="/new/Content/Self-Service-Demo-Desktop-Icons-5.png" height="30px"></h5>
+<center>
+<h4 class="card-subtitle mb-2 text-muted">
+Digital Consent
+
+
+
+
+
+</h4>
+</center>
+                                  </a>  
+                            </div>
+                            <div class="flip-card-back">
+                                <a href="/new/Home/Terms">
+                                <p class="card-text">Collect instant consent on T&amp;C’s and disclosures with a simple click.</p>
+</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner" style="width: 18rem;">
+                            <div class="flip-card-front" style="height:215px">
+                                <center>
+                                    <h5 class="card-title"><img src="/new/Content/Self-Service-Demo-Desktop-Icons-9.png" height="30px"></h5>
+                                    <h4 class="card-subtitle mb-2 text-muted">
+                                        Lead-Gen Forms
+
+
+
+
+
+
+                                    </h4>
+                                </center>
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="card-text">Maximize lead generation efficiency with smart forms.</p>
+                                </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    <br>
+
+<footer class="footer" style="
+">
+    <footer><div class="container"> <img class="logo" src="https://www.lightico.com/wp-content/uploads/2019/03/logo-color.svg" style="
+    height: 100px;
+    width: 100%;
+    margin: 50px 0px 80px 0px;
+"><div class="footer-nav-menu" style="
+    display: flex;
+"><ul style="
+    display: flex;
+"><li class="footer-menu-item"> <a href="https://www.lightico.com/platform/" style="
+">Platform</a><ul><li> <a href="https://www.lightico.com/platform/" style="
+    /* color: gray; */
+">Lightico Platform</a></li><li> <a href="https://www.lightico.com/security-compliance/">Security &amp; Compliance</a></li><li> <a href="https://www.lightico.com/lightico-for-salesforce/">Lightico for Salesforce</a></li></ul></li><li class="footer-menu-item"> <a href="https://www.lightico.com/product-new/" style="
+    px 0px 0px 40px; */
+;
+    transition: color .3s linear;
+    display: inline-block;
+">Product Features</a><ul><li style="
+    /* margin: 1em 0; */
+"> <a href="https://www.lightico.com/esignature/">eSignature Solution</a></li><li> <a href="https://www.lightico.com/eforms/">eForms</a></li><li> <a href="https://www.lightico.com/identity-verification/">Photo ID Verification</a></li><li> <a href="https://www.lightico.com/document-collection/">Document Collection</a></li><li> <a href="/product-new/#feature-3">Product Visualization</a></li><li> <a href="https://www.lightico.com/instant-consent-clickwrap/">Instant Consent</a></li><li> <a href="https://www.lightico.com/secure-payments/">Secure Payments</a></li><li> <a href="https://www.lightico.com/visual-cart/">Visual Cart</a></li><li> <a href="https://www.lightico.com/shared-review/">Shared Review</a></li><li> <a href="https://www.lightico.com/media-sharing/">Media Sharing</a></li></ul></li><li class="footer-menu-item"><p style="
+    color: black;
+    padding: 0px 0px 0px 40px;
+    font-size: 20x;
+    font-weight: 600;
+">Industries</p><ul><li> <a href="/lending_banking">Lending &amp; Banking</a></li><li> <a href="/insurance">Insurance</a></li><li> <a href="/telco">Telco</a></li><li> <a href="https://www.lightico.com/legal-teams/">Legal Teams</a></li><li> <a href="https://www.lightico.com/bpo/">BPO</a></li></ul></li><li class="footer-menu-item"> <a href="https://www.lightico.com/resources/">Resources</a><ul><li> <a href="https://www.lightico.com/blog/">Blog</a></li><li> <a href="/guides">Guides</a></li><li> <a href="/resources/webinars/">Webinars</a></li><li> <a href="/resources/videos">Videos</a></li><li> <a href="https://www.lightico.com/blog/customer-experience-in-banking-and-key-opportunities-for-improvement/">Customer Experience in Banking</a></li><li> <a href="https://www.lightico.com/blog/call-center-kpis/">Call Center KPIs</a></li><li> <a href="https://www.lightico.com/blog/esignature-legal-guide-updated/">eSignature Legal Guide</a></li></ul></li><li class="footer-menu-item"> <a href="https://www.lightico.com/company/">Company</a><ul><li> <a href="https://www.lightico.com/company/">About Us</a></li><li> <a href="https://www.lightico.com/partners/">Become a Partner</a></li><li> <a href="https://www.lightico.com/careers/">Careers</a></li></ul></li><li class="footer-menu-item"><p style="
+    color: black;
+    padding: 0px 0px 0px 40px;
+    font-size: 20x;
+    font-weight: 600;
+    /* font-size: 1.1em; */
+    /* color: #645e83; */
+    /* font-family: maison-neue-demi; */
+    /* transition: color .3s linear; */
+    /* margin: .2em 0; */
+    /* display: inline-block; */
+    /* letter-spacing: normal; */
+">Contact</p><ul><li> <a href="mailto:info@lightico.com">info@lightico.com</a></li><li><p>1-888-252-1440</p></li><li><p>+44 127 612 897</p></li><li><p>275 7th Ave.<br>New York, NY 10011</p></li><li> <a href="https://www.lightico.com/support/">24/7 Support</a></li></ul></li></ul></div><div class="footer-second"><div style="flex: 1;"></div><div class="logos" style="display: flex;justify-content: space-around;"><div class="social-links" style="
+"><a href="https://www.facebook.com/Lightico-746181632215987/"><img role="img" src="https://www.lightico.com/wp-content/themes/lightico/img/facebook-icon.svg" alt="" width="300" height="300" style="
+height: 40px;
+width: 40px;
+"></a><a href="https://twitter.com/lightico"><img role="img" src="https://www.lightico.com/wp-content/themes/lightico/img/twitter-icon.svg" alt="" width="300" height="300" style="
+height: 40px;
+width: 40px;
+"></a><a href="https://www.linkedin.com/company/13200839" style="
+/* height: 40px; */
+/* width: 40px; */
+"><img role="img" src="https://www.lightico.com/wp-content/themes/lightico/img/linkedin-icon.svg" alt="" width="300" height="300" style="
+height: 40px;
+width: 40px;
+"></a></div><div><img src="https://www.lightico.com/wp-content/uploads/2019/03/lightico-footer-logos.png" alt="" width="345" height="45"></div><div style="
+"><img src="https://www.lightico.com/wp-content/uploads/2019/03/EDC-Logo-Horizontal-WITH-tagline-1-e1552567313587.jpg" alt="" width="178" height="30" style="
+    /* height: 45px; */
+    margin: 9px;
+"></div><div><img src="https://www.lightico.com/wp-content/uploads/2019/10/2019_Salesforce_Available_on_Appexchange_Badge_small.png" alt="" width="55" height="59" style="
+    height: 45px;
+    width: 45px;
+"></div><div><img src="https://www.lightico.com/wp-content/uploads/2019/11/HIPAA-Logo-300x154-1.png" alt="" width="109" height="60" style="
+    height: 45px;
+    width: 73px;
+    /* margin: 2px; */
+"></div></div></div><hr><p class="copyright">Copyright © 2019 Lightico. All rights reserved. | <a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-and-conditions/">Terms and Conditions</a></p></div></footer>
+</footer>
+
+</div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+</div></div>
